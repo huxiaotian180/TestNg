@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Preserve Enable TestSuite">
+    <test name="Test 1" preserve-order="true">
+        <classes>
+            <class name="TestNg_enable.TestNG_Preserve1"></class>
+            <class name="TestNg_enable.TestNG_Preserve2"></class>
+        </classes>
+    </test>
+    <test name="Test 2" enabled="false">
+        <classes>
+            <class name="TestNg_enable.TestNG_Preserve1"></class>
+            <class name="TestNg_enable.TestNG_Preserve2"></class>
+        </classes>
+    </test>
+</suite>

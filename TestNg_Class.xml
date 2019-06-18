@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Regression TestSuite">
+    <test name ="Application Test">
+        <classes>
+            <class name="TestNg_Class_xml.TestNG_TestClass1"></class>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="TestNg_Report.TestngListener" />
+    </listeners>
+
+</suite>
